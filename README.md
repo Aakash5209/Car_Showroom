@@ -15,18 +15,23 @@ price: The price of the car.
 2. Showroom
 The Showroom class manages the collection of cars and employees within a showroom.
 
-Attributes:
+ Attributes:
 id: Unique identifier for each showroom.
 name: The name of the showroom.
 location: The location of the showroom.
-Methods:
+ Methods:
 addCar(car): Adds a car to the showroom.
 GetCars(): Displays the list of cars in the showroom.
+GetShowroom(): Displays the list of showroom.
+
 
 3. Employee
 The Employee class represents individuals working in the showroom.
+Method -
+getEmployee(): Displays the list of employee in the showroom.
+addEmployee(): Add employee in the showroom.
 
-Attributes:
+# Attributes:
 id: Unique identifier for each employee.
 name: The name of the employee.
 position: The position or role of the employee.
